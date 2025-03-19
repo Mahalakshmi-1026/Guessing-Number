@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/040/890/255/small/ai-generated-empty-wooden-table-on-the-natural-background-for-product-display-free-photo.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    height: 100vh;
+    line-height: 1.0;
+}
+.logo{
+    font-size: 70px;
+    font-weight: 700;
+    color: black;
+}
+.button{
+    background-color:whitesmoke;
+    color: black;
+    height: 50px;
+    width: 140px;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 500;
+    cursor:pointer;
+}
+.button:hover{
+    background-color: white;
+    color: black;
+}
+input{
+    width:200px;
+    height: 50px;
+    text-align: center;
+    font-size: 1.3e;
+}
+#input_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#submit{
+    margin-left: 15px;
+    margin-top: 2px;
+
+}
+
+#message{
+    display: none;
+    font-size: 1.5em;
+    background-color: cornflowerblue;
+    color: black;
+    padding: 5px 15px;
+}
+
+#lives-text{
+    font-size: 2em;
+    font-weight: 500;
+}
